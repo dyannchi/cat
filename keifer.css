@@ -1,0 +1,52 @@
+body {
+    background-image: url(keifer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 180px;
+    left: 29%;
+    transform: translateX(-50%);
+    background: rgba(238, 4, 23, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: rgb(18, 213, 67);
+}
+
+
+.container {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.6;
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 140px;
+}
+
+
+.container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(18, 15, 15);
+    font-family: "Times New Roman", serif;
+    text-align:center;
+}

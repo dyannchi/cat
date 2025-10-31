@@ -1,0 +1,52 @@
+body {
+    background-image: url(jayjay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 560px;
+    left: 27%;
+    transform: translateX(-50%);
+    background: rgba(236, 4, 4, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: rgb(93, 8, 98);
+}
+
+
+.container {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.6;
+    width: 600px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+
+.container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(18, 15, 15);
+    font-family: "Times New Roman", serif;
+    text-align:center;
+}
